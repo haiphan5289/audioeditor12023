@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A5C2299E944AFBF6BCDD4ED /* Pods_AudioEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E8A0C314B2DEF000561C0B /* Pods_AudioEditor.framework */; };
+		93A960EE296948EB00A8766E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A960ED296948EB00A8766E /* AppDelegate.swift */; };
+		93A960F0296948EB00A8766E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A960EF296948EB00A8766E /* SceneDelegate.swift */; };
+		93A960F2296948EB00A8766E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A960F1296948EB00A8766E /* ViewController.swift */; };
+		93A960F5296948EB00A8766E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A960F3296948EB00A8766E /* Main.storyboard */; };
+		93A960F7296948ED00A8766E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A960F6296948ED00A8766E /* Assets.xcassets */; };
+		93A960FA296948ED00A8766E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A960F8296948ED00A8766E /* LaunchScreen.storyboard */; };
+		93A961042969566200A8766E /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A961032969566200A8766E /* TabbarVC.swift */; };
+		93A961092969569500A8766E /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93A961062969569500A8766E /* HomeVC.xib */; };
+		93A9610A2969569500A8766E /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A961072969569500A8766E /* HomeVM.swift */; };
+		93A9610B2969569500A8766E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A961082969569500A8766E /* HomeVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DE8238B288DFE493594EDED /* Pods-AudioEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioEditor.release.xcconfig"; path = "Target Support Files/Pods-AudioEditor/Pods-AudioEditor.release.xcconfig"; sourceTree = "<group>"; };
+		93A960EA296948EB00A8766E /* AudioEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A960ED296948EB00A8766E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93A960EF296948EB00A8766E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		93A960F1296948EB00A8766E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93A960F4296948EB00A8766E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93A960F6296948ED00A8766E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93A960F9296948ED00A8766E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93A960FB296948ED00A8766E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A961032969566200A8766E /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
+		93A961062969569500A8766E /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		93A961072969569500A8766E /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		93A961082969569500A8766E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		A02A0B98CC08723B363C55B9 /* Pods-AudioEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioEditor.debug.xcconfig"; path = "Target Support Files/Pods-AudioEditor/Pods-AudioEditor.debug.xcconfig"; sourceTree = "<group>"; };
+		C9E8A0C314B2DEF000561C0B /* Pods_AudioEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93A960E7296948EB00A8766E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5C2299E944AFBF6BCDD4ED /* Pods_AudioEditor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93296E6777E153D817A35ABA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9E8A0C314B2DEF000561C0B /* Pods_AudioEditor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93A960E1296948EB00A8766E = {
+			isa = PBXGroup;
+			children = (
+				93A960EC296948EB00A8766E /* AudioEditor */,
+				93A960EB296948EB00A8766E /* Products */,
+				9A5078E817C6AEA33CB30437 /* Pods */,
+				93296E6777E153D817A35ABA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93A960EB296948EB00A8766E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93A960EA296948EB00A8766E /* AudioEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93A960EC296948EB00A8766E /* AudioEditor */ = {
+			isa = PBXGroup;
+			children = (
+				93A960ED296948EB00A8766E /* AppDelegate.swift */,
+				93A960EF296948EB00A8766E /* SceneDelegate.swift */,
+				93A961052969568500A8766E /* Home */,
+				93A961022969560F00A8766E /* Tabbar */,
+				93A960F1296948EB00A8766E /* ViewController.swift */,
+				93A960F3296948EB00A8766E /* Main.storyboard */,
+				93A960F6296948ED00A8766E /* Assets.xcassets */,
+				93A960F8296948ED00A8766E /* LaunchScreen.storyboard */,
+				93A960FB296948ED00A8766E /* Info.plist */,
+			);
+			path = AudioEditor;
+			sourceTree = "<group>";
+		};
+		93A961022969560F00A8766E /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				93A961032969566200A8766E /* TabbarVC.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		93A961052969568500A8766E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				93A961062969569500A8766E /* HomeVC.xib */,
+				93A961072969569500A8766E /* HomeVM.swift */,
+				93A961082969569500A8766E /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9A5078E817C6AEA33CB30437 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A02A0B98CC08723B363C55B9 /* Pods-AudioEditor.debug.xcconfig */,
+				1DE8238B288DFE493594EDED /* Pods-AudioEditor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93A960E9296948EB00A8766E /* AudioEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A960FE296948ED00A8766E /* Build configuration list for PBXNativeTarget "AudioEditor" */;
+			buildPhases = (
+				3C561266F81483CEF15C394B /* [CP] Check Pods Manifest.lock */,
+				93A960E6296948EB00A8766E /* Sources */,
+				93A960E7296948EB00A8766E /* Frameworks */,
+				93A960E8296948EB00A8766E /* Resources */,
+				2DD44F49EBD3DCC01B80576F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioEditor;
+			productName = AudioEditor;
+			productReference = 93A960EA296948EB00A8766E /* AudioEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93A960E2296948EB00A8766E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					93A960E9296948EB00A8766E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 93A960E5296948EB00A8766E /* Build configuration list for PBXProject "AudioEditor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93A960E1296948EB00A8766E;
+			productRefGroup = 93A960EB296948EB00A8766E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93A960E9296948EB00A8766E /* AudioEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93A960E8296948EB00A8766E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A960FA296948ED00A8766E /* LaunchScreen.storyboard in Resources */,
+				93A961092969569500A8766E /* HomeVC.xib in Resources */,
+				93A960F7296948ED00A8766E /* Assets.xcassets in Resources */,
+				93A960F5296948EB00A8766E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DD44F49EBD3DCC01B80576F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AudioEditor/Pods-AudioEditor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AudioEditor/Pods-AudioEditor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AudioEditor/Pods-AudioEditor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C561266F81483CEF15C394B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioEditor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93A960E6296948EB00A8766E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A960F2296948EB00A8766E /* ViewController.swift in Sources */,
+				93A9610A2969569500A8766E /* HomeVM.swift in Sources */,
+				93A960EE296948EB00A8766E /* AppDelegate.swift in Sources */,
+				93A9610B2969569500A8766E /* HomeVC.swift in Sources */,
+				93A961042969566200A8766E /* TabbarVC.swift in Sources */,
+				93A960F0296948EB00A8766E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93A960F3296948EB00A8766E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93A960F4296948EB00A8766E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93A960F8296948ED00A8766E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93A960F9296948ED00A8766E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93A960FC296948ED00A8766E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93A960FD296948ED00A8766E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93A960FF296948ED00A8766E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02A0B98CC08723B363C55B9 /* Pods-AudioEditor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudioEditor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = haiphan.AudioEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		93A96100296948ED00A8766E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE8238B288DFE493594EDED /* Pods-AudioEditor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudioEditor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = haiphan.AudioEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93A960E5296948EB00A8766E /* Build configuration list for PBXProject "AudioEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A960FC296948ED00A8766E /* Debug */,
+				93A960FD296948ED00A8766E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A960FE296948ED00A8766E /* Build configuration list for PBXNativeTarget "AudioEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A960FF296948ED00A8766E /* Debug */,
+				93A96100296948ED00A8766E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93A960E2296948EB00A8766E /* Project object */;
+}
